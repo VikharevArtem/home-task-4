@@ -1,5 +1,4 @@
 class FetchApi extends BaseApi {
-  baseURL = 'https://tasks-service-maks1394.amvera.io';
   async request(path, options = {}) {
     const url =
       options.method === 'GET'
